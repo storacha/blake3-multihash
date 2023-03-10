@@ -1,6 +1,6 @@
 {
   "name": "blake3-multihash",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "blake3 multihash",
   "license": "ISC",
   "keywords": [

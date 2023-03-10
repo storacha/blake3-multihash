@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.4](https://github.com/web3-storage/blake3-multiformat/compare/v0.0.3...v0.0.4) (2023-03-10)
+
+
+### Bug Fixes
+
+* ci scripts [#5](https://github.com/web3-storage/blake3-multiformat/issues/5) ([4f94645](https://github.com/web3-storage/blake3-multiformat/commit/4f94645fe47310ff1800f48881e6abc00cf3197a))
+* debug git repo which prevents publishing ([97abc88](https://github.com/web3-storage/blake3-multiformat/commit/97abc88069a4ce2e7d83feca0d5dd7fb76778aaf))
+* workflows ([85616b3](https://github.com/web3-storage/blake3-multiformat/commit/85616b396d749a2d7b701555d19e492ed92f2e59))
+
 ## [0.0.3](https://github.com/web3-storage/blake3-multiformat/compare/v0.0.2...v0.0.3) (2023-03-10)
 
 
