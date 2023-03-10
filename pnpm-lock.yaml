@@ -1,12 +1,8 @@
 lockfileVersion: 5.4
 
-overrides:
-  '@c4312/blake3-internal': ^3.0.0
-
 specifiers:
   '@types/chai': 4.3.4
   '@types/mocha': 10.0.1
-  blake3-wasm: ^3.0.0
   c8: 7.13.0
   chai: 4.3.7
   mocha: 10.2.0
@@ -14,9 +10,6 @@ specifiers:
   nyc: ^15.1.0
   playwright-test: 8.2.0
   typescript: 4.9.5
-
-dependencies:
-  blake3-wasm: 3.0.0
 
 devDependencies:
   '@types/chai': 4.3.4
@@ -242,11 +235,6 @@ packages:
   /@bcoe/v8-coverage/0.2.3:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
-
-  /@c4312/blake3-internal/3.0.0:
-    resolution: {integrity: sha512-USnabcn5uQDbEEryzjK4F3L7HVbMsWtqkTjDbZ/zyMp2vXwlOVnYZbn2WEGx+RmN84U5S1dTe1+RI0fKBWxQsA==}
-    engines: {node: '>=16'}
-    dev: false
 
   /@esbuild/android-arm/0.16.10:
     resolution: {integrity: sha512-RmJjQTRrO6VwUWDrzTBLmV4OJZTarYsiepLGlF2rYTVB701hSorPywPGvP6d8HCuuRibyXa5JX4s3jN2kHEtjQ==}
@@ -659,13 +647,6 @@ packages:
       inherits: 2.0.4
       readable-stream: 3.6.1
     dev: true
-
-  /blake3-wasm/3.0.0:
-    resolution: {integrity: sha512-X410nN2AIX6k8gHQmXruQ9YV3U8fe7ZrfLMp88qBcGx5oEIGzz305HvquXoSTPdaR74EA99KHBTb8El9q0vjqQ==}
-    engines: {node: '>=16'}
-    dependencies:
-      '@c4312/blake3-internal': 3.0.0
-    dev: false
 
   /brace-expansion/1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
