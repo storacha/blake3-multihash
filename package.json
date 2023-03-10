@@ -32,11 +32,7 @@
       "types": "./dist/src/sync.js",
       "import": "./src/sync.js"
     },
-    "./package.json": "./package.json",
-    "./blake3": {
-      "browser": "./src/blake3.browser.js",
-      "import": "./src/blake3.import.js"
-    }
+    "./package.json": "./package.json"
   },
   "types": "./dist/src/lib.d.ts",
   "typesVersions": {

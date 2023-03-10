@@ -8,11 +8,15 @@ on:
     paths:
       - "src/**"
       - "test/**"
+      - "gen/**"
+      - "package.json"
   pull_request:
     branches:
       - main
     paths:
+      - "package.json"
       - "src**"
+      - "gen/**"
       - "test/**"
       - ".github/workflows/ci.yml"
 
