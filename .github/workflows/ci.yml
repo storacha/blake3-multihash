@@ -8,11 +8,15 @@ on:
     paths:
       - "src/**"
       - "test/**"
+      - "gen/**"
+      - "package.json"
   pull_request:
     branches:
       - main
     paths:
+      - "package.json"
       - "src**"
+      - "gen/**"
       - "test/**"
       - ".github/workflows/ci.yml"
 
@@ -43,31 +47,6 @@ jobs:
         uses: gozala/typescript-error-reporter-action@v1.0.8
         with:
           project: ./tsconfig.json
-  debug:
-    runs-on: ubuntu-latest
-    steps:
-      # The logic below handles the npm publication:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2.2.3
-        with:
-          version: 7
-
-      - name: Setup node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          registry-url: https://registry.npmjs.org/
-          cache: "pnpm"
-
-      - name: Build
-        run: |
-          pnpm install
-          pnpm run --if-present build
-
-      - run: git status -v
 
   test-node:
     name: Test Node

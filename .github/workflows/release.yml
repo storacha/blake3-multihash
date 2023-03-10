@@ -46,8 +46,6 @@ jobs:
           pnpm install
           pnpm run --if-present build
 
-      - run: git status -v
-
       - name: Publish
         run: pnpm publish --access=public
         env:
