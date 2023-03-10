@@ -55,17 +55,6 @@
       "dist/**"
     ]
   },
-  "overrides": {
-    "@c4312/blake3-internal": "^3.0.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "@c4312/blake3-internal": "^3.0.0"
-    }
-  },
-  "dependencies": {
-    "blake3-wasm": "^3.0.0"
-  },
   "devDependencies": {
     "@types/chai": "4.3.4",
     "@types/mocha": "10.0.1",
