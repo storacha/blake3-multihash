@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3](https://github.com/web3-storage/blake3-multiformat/compare/v0.0.2...v0.0.3) (2023-03-10)
+
+
+### Bug Fixes
+
+* tsconfig ([560ef69](https://github.com/web3-storage/blake3-multiformat/commit/560ef69f03283d1e302a98028d7cbd021e087a3b))
+
 ## [0.0.2](https://github.com/web3-storage/blake3-multiformat/compare/v0.0.1...v0.0.2) (2023-03-10)
 
 
